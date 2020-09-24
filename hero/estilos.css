@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+header{
+    background-image:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(37, 37, 85, 0.8) 53%, rgba(0,212,255,1) 100%), url(./img/consultorio.jpg);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.letras{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 5px;
+}
+
+.letras a{
+    margin-top: 30px;
+    text-decoration: none;
+    background-color: rgba(255, 0, 0, 0.76);
+    padding: 8px 20px;
+    border-radius: 8px;
+    color: white;
+}
+.waves{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+}
